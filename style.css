@@ -1,7 +1,22 @@
+img {
+  max-width: 100%;
+}
+
+.cbanner {
+  max-width: 1140px;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("images/kayak-bkgd.jpg");
+  background-repeat: no-repeat;
+  background-position: top-center;
+
+}
+
 .container {
   max-width: 1140px;
   margin: 0 auto;
-  background-color: rgba(0, 0, 0, 0.1);
+
 }
 
 img {
@@ -20,4 +35,63 @@ img {
   color: #FFFFFF;
   padding: 15px;
   margin: 50px auto;
+}
+
+.enjoy{
+  display: block;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: helvetica;
+  text-align: center;
+}
+
+.great {
+  display: block;
+  font-size: 60px;
+  font-family: garamond;
+  text-align: center;
+}
+
+.water {
+  display: block;
+  font-size: 30px;
+  font-family: garamond;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  display: block;
+  text-align: center;
+}
+
+.topbanner {
+  max-width: 1140px;
+  margin: 0 auto;
+  background-color: #000000;
+  display: block;
+
+}
+
+@media(min-width: 800px){
+  rentals p {
+    width: 50%;
+  }
+}
+
+/*tablet*/
+@media (min-width:600px) {
+img {
+  max-width: 40%;
+  }
+}
+
+/*desktop*/
+@media (min-width: 1100px) {
+  img {
+  max-width: 30%;
+  }
 }
