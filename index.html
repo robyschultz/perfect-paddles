@@ -3,7 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>Perfect Paddles</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <!-- <link rel="stylesheet" href="normalize.css"> -->
     <link rel="stylesheet" href="style.css">
+
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Project 1: Kayak rentals in Vancouver">
@@ -11,20 +15,11 @@
   </head>
   <body>
 
-    <div>
-      <audio src="" autoplay="autoplay" controls="controls" type="mp3">
-
-        <video controls loop>
-          <source src="media/pretty-holiday.mp4" type="video/mp4">
-        </video>
-
-      </audio>
-    </div>
 
     <header>
-      <div class="topbanner">
-        <img src="images/perfect-paddles-logo.svg" alt="Perfect Paddles Logo">
-        <nav>
+      <div class="topbanner clearfix">
+        <img class="logo clearfix" src="images/perfect-paddles-logo.svg" alt="Perfect Paddles Logo">
+        <nav class="menu clearfix">
           <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#rentals">Rentals</a></li>
@@ -62,12 +57,15 @@
       </section>
 
     <section class="rentals">
-      <div class="container">
+      <div class="container clearfix">
+
+        <div class="rentals-text clearfix">
         <h2>Rentals</h2>
         <p>All rental prices include basic paddles, life jackets, splash protection, and a safety demonstration,</p>
         <p>Please note that we require 24 hours notice for all cancellations and late returns will be charged accordingly.</p>
         <p>Call 604-604-6040 to book now!</p>
-
+        </div>
+        <div class="table clearfix">
         <table>
           <thead>
             <tr>
@@ -99,6 +97,7 @@
             </tr>
           </tbody>
         </table>
+      </div>
       </div>
 
     </section>
