@@ -1,39 +1,134 @@
-img {
-  max-width: 100%;
-}
-
 header {
   background-color: #000000;
   position: fixed;
   width: 100%;
   top: 0;
   height: 100px;
+  text-align: center;
 }
-}
+
 
 body {
   margin-top: 100px;
+  font-family: Karla;
+  font-size: 16px;
+  line-height: 1.5em;
+  color: #2d2d2d;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+h2 {
+  text-align: center;
+  font-family: Pacifico;
+  font-size: 2em;
+  color: #646464;
+  line-height: 2.5em;
+}
+
+p {
+  display: block;
+  text-align: center;
+  line-height: 1.5em;
+  font-family: Karla;
+  color: #2d2d2d;
+  padding-bottom: 2em;
+}
+
+footer p {
+color: #FFFFFF;
+}
+
+
+nav ul {
+
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0 auto;
+}
+
+nav li {
+  display: inline-block;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 5px 10px;
+}
+
+a {
+  color: #e2574c;
+  }
+
+  a:hover {
+    color: #b64036;
+  }
+
+main {
+  margin: 0.5em;
+}
+
+footer {
+  background-color: #2d2d2d;
+  text-align: center;
+  padding: 3em 2em;
+  color: white;
+}
+
+footer p {
+  margin: 0 0.5em;
+}
+
+footer a {
+  color: white;
+}
+
+iframe {
+width: 100%;
+}
+
+
+.navlink {
+  color: white;
+  text-decoration: none;
+
 }
 
 .container {
   width: 100%;
   margin: auto;
+  }
 
-}
+ .logo {
+    max-width: 60%;
+    max-height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+  }
 
 
-.topbanner {
+.banner {
   max-width: 1140px;
-  background-size: cover;
-  background-position: center center;
-  background-image: url("images/kayak-bkgd.jpg");
-  background-repeat: no-repeat;
-
-  padding: 0 10px;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.35) 0%,
+    rgba(0, 0, 0, 0.25) 100%
+    ),
+    url("./images/kayak-bkgd.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding: 0 10px;
+    top: 65px;
+    padding: 2em;
 }
-
-
-
 
 .btn-sign {
   background-color: #e2574c;
@@ -47,106 +142,80 @@ body {
   color: #FFFFFF;
   padding: 15px;
   margin: 50px auto;
-}
-
-.button {
-  padding: 5px;
-}
-.about {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  transition-property: background;
+  transition-duration: 0.5s;
+  transition-delay: 0.2s;
 }
 
 
 .enjoy {
   display: block;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 1.5em;
   font-family: karla;
   text-align: center;
-  padding: 5px;
   color: white;
 }
 
 .great {
   display: block;
-  font-size: 60px;
+  font-size: 4em;
+  line-height: 1.5em;
   font-family: pacifico;
   text-align: center;
-  padding: 5px;
   color: white;
 }
 
 .water {
   display: block;
-  font-size: 30px;
+  font-size: 2em;
+  line-height: 1em;
   font-family: pacifico;
   text-align: center;
-  padding: 5px;
   color: white;
 }
 
-h2 {
-  text-align: center;
-  font-family: Pacifico;
-}
-
-p {
-  display: block;
-  text-align: center;
-  font-family: Karla;
-
-}
-
-
-
-footer p {
-color: #FFFFFF;
-}
-ul {
-
-  list-style-type: none;
-  padding-left: 0;
-}
-
-li {
-  display: inline;
+.banner p {
   color: white;
-  font-family: sans-serif;
   font-weight: bold;
-  text-transform: uppercase;
-  margin: 5px 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1em;
+  margin: 1em auto;
+  width: 75%;
 }
 
-a {
-  text-decoration: none;
-  color: #FFFFFF;
+.rentals table, .rentals th, .rentals td {
+  border: 1px solid #c8c8c8;
 }
 
-
-.menu {
-  position: relative;
-  display: block;
-  padding-bottom: 15px;
+.rentals th, .rentals td {
   text-align: center;
-
+  padding: 0.5em;
 }
 
-.logo {
-  position: relative;
-  max-width: 80%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px;
+.rentals table {
+  width: 100%;
 }
 
-footer {
-  background-color: black;
+.rentals th {
+  background-color: #e6e6e6;
+  font-weight: bold;
 }
 
-iframe {
-width: 100%;
+.rentals td {
+  width: 33%;
+}
+
+.rentals td:first-child {
+  text-align: left;
+}
+
+.rentals tr:hover {
+  background-color: #fbf6d9;
+}
+
+.mutted {
+color: #999;
 }
 
 
@@ -162,35 +231,48 @@ width: 100%;
 @media (min-width:600px) {
 
 body {
-    margin-top: 60px;
+    margin-top: 65px;
   }
 header {
-  height: 60px;
+  height: 65px;
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 0;
+  justify-content: space-between;
+  align-items: center;
+  /*padding: 5px;*/
 }
-  .logo {
-  width: 30%;
-  float: left;
-  }
 
-  .menu {
-    width: 40%;
-    float: right;
-    display: block;
-    margin-top: auto;
-    margin-bottom: auto;
-  }
+.logo {
+  max-width: 25%;
+}
+
+nav {
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 0;
+  justify-content: flex-end;
+}
+
+nav ul {
+  width: auto;
+  margin: 0;
+  padding-right: 10px
+}
 
 .rentals-text {
-  width: 40%;
+  width: 48%;
   float: left;
-  padding: 5px;
+  /*padding: 5px;*/
 
 }
 
 .table {
-  width: 40%;
+  width: 48%;
   float: right;
-  padding: 5px;
+  /*padding: 5px;*/
   }
 
 }
@@ -204,4 +286,8 @@ header {
     max-width: 1140px;
     margin: auto;
   }
+}
+
+button:hover {
+  background-color: red;
 }
