@@ -3,33 +3,33 @@
   <head>
     <meta charset="utf-8">
     <title>Perfect Paddles</title>
-
     <link rel="stylesheet" href="reset.css">
     <!-- <link rel="stylesheet" href="normalize.css"> -->
     <link rel="stylesheet" href="style.css">
-
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Project 1: Kayak rentals in Vancouver">
     <meta name="author" content="Roberta Schultz">
   </head>
+
   <body>
 
-
     <header>
-        <img class="logo" src="images/perfect-paddles-logo.svg" alt="Perfect Paddles Logo">
-        <nav>
-          <ul>
-            <li><a href="#about" class="navlink">About</a></li>
-            <li><a href="#rentals" class="navlink">Rentals</a></li>
-            <li><a href="#location" class="navlink">Location</a></li>
-          </ul>
-        </nav>
+      <div class="container">
+          <div class="top-menu">
+            <img class="logo" src="images/perfect-paddles-logo.svg" alt="Perfect Paddles Logo">
+            <nav>
+              <ul>
+                <li><a href="#about" class="navlink">About</a></li>
+                <li><a href="#rentals" class="navlink">Rentals</a></li>
+                <li><a href="#location" class="navlink">Location</a></li>
+              </ul>
+            </nav>
+        </div>
+      </div>
     </header>
 
     <section class="banner">
       <div class="container">
-
         <h1>
           <span class="enjoy">enjoy the</span>
           <span class="great">Great Outdoors</span>
@@ -37,73 +37,67 @@
          </h1>
         <p>Rent our canoes year-round, take a lesson, or join a group tour.</p>
         <div class="button">
-        <button type="button" class="btn-sign">Sign me up!</button>
-
+          <button type="button" class="btn-sign">Sign me up!</button>
+        </div>
       </div>
-      </div>
-
     </section>
 
     <main>
+
       <section class="about">
         <div class="container">
-
           <h2>About</h2>
           <p>Perfect Paddles Kayak Rentals Co. offers you the unique opportunity to experience the great outdoors in one of our single or double kayaks.  We cater to all skill levels and abilities, and offer a variety of lessons and tours too.</p>
-          <div class="about-imgs">
+          <div class="about-images">
             <img src="images/sunset-kayak.jpg" alt="Sunset Image">
             <img src="images/coffee-adventure.jpg" alt="Cup of coffee">
             <img src="images/girl-in-kayak.jpg" alt="Girl in Kayak">
           </div>
         </div>
-
       </section>
 
     <section class="rentals clearfix">
       <h2>Rentals</h2>
       <div class="container clearfix">
-
-        <div class="rentals-text">
-        <p>All rental prices include basic paddles, life jackets, splash protection, and a safety demonstration,</p>
-        <p>Please note that we require 24 hours notice for all cancellations and late returns will be charged accordingly.</p>
-        <p id="phone-number">Call <a href="tel:+16046046040">604-604-6040</a> to book now!</p>
+        <div class="rentals-text clearfix">
+          <p>All rental prices include basic paddles, life jackets, splash protection, and a safety demonstration,</p>
+          <p>Please note that we require 24 hours notice for all cancellations and late returns will be charged accordingly.</p>
+          <p id="phone-number">Call <a href="tel:+16046046040">604-604-6040</a> to book now!</p>
         </div>
-
         <div class="table clearfix">
-        <table>
-          <thead>
-            <tr>
-              <th>Duration</th>
-              <th>Single Kayak</th>
-              <th>Double Kayak</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>2 hours</td>
-              <td>$35</td>
-              <td>$55</td>
-            </tr>
-            <tr>
-              <td>1 Day</td>
-              <td>$90</td>
-              <td>$130</td>
-            </tr>
-            <tr>
-              <td>$130</td>
-              <td>$45</td>
-              <td>$65</td>
-            </tr>
-            <tr>
-              <td>Season Pass</td>
-              <td>$249</td>
-              <td>$349</td>
-            </tr>
-          </tbody>
-        </table>
+          <table>
+            <thead>
+              <tr>
+                <th>Duration</th>
+                <th>Single Kayak</th>
+                <th>Double Kayak</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2 hours</td>
+                <td>$35</td>
+                <td>$55</td>
+              </tr>
+              <tr>
+                <td>1 Day</td>
+                <td>$90</td>
+                <td>$130</td>
+              </tr>
+              <tr>
+                <td>$130</td>
+                <td>$45</td>
+                <td>$65</td>
+              </tr>
+              <tr>
+                <td>Season Pass</td>
+                <td>$249</td>
+                <td>$349</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
-      </div>
-
     </section>
 
     <section>
@@ -114,10 +108,11 @@
       </div>
     </section>
 
-    </main>
+  </main>
 
-    <footer>
-      <div class="container">
+  <footer>
+    <div class="container info">
+      <div class="contact">
         <p>
           ©2017 Perfect Paddles Kayak Co.
           Powered by HTML and CSS.
@@ -128,26 +123,18 @@
           Cornwall Avenue & Yew Street
           Vancouver, BC, Canada
         </p>
-
       </div>
-
-      <section>
-        <div class="container">
-          <nav>
-            <ul>
-              <li><a href="https://facebook.com" target="_blank" class="navlink">Facebook</a></li>
-              <li><a href="https://twitter.com" target="_blank" class="navlink">Twitter</a></li>
-              <li><a href="https://instagram.com" target="_blank" class="navlink">Instagram</a></li>
-              <li><a href="https://pinterest.com" target="_blank" class="navlink">Pinterest</a></li>
-              <li><a href="https://plus.google.com" target="_blank" class="navlink">Google+</a></li>
-            </ul>
-          </nav>
-        </div>
-
-      </section>
-
-
-    </footer>
+        <nav>
+          <ul>
+            <li><a href="https://facebook.com" target="_blank" class="navlink">Facebook</a></li>
+            <li><a href="https://twitter.com" target="_blank" class="navlink">Twitter</a></li>
+            <li><a href="https://instagram.com" target="_blank" class="navlink">Instagram</a></li>
+            <li><a href="https://pinterest.com" target="_blank" class="navlink">Pinterest</a></li>
+            <li><a href="https://plus.google.com" target="_blank" class="navlink">Google+</a></li>
+          </ul>
+        </nav>
+      </div>
+  </footer>
 
   </body>
 </html>
