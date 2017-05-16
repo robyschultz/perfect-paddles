@@ -1,3 +1,36 @@
+@font-face {
+  font-family: 'Karla';
+  src: url('fonts/Karla-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Karla';
+  src: url('fonts/Karla-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Karla.ttf';
+  src: url('fonts/Karla-Italic') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Karla.ttf';
+  src: url('fonts/Karla-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Pacifico.ttf';
+  src: url('fonts/Pacifico.ttf') format('truetype');
+}
+
 header {
   background-color: #000000;
   position: fixed;
@@ -9,7 +42,7 @@ header {
 
 body {
   margin-top: 100px;
-  font-family: Karla;
+  font-family: Karla, sans-serif;
   font-size: 16px;
   line-height: 1.5em;
   color: #2d2d2d;
@@ -32,7 +65,7 @@ p {
   display: block;
   text-align: center;
   line-height: 1.5em;
-  font-family: Karla;
+  font-family: Karla, sans-serif;
   color: #2d2d2d;
   padding-bottom: 2em;
 }
@@ -82,11 +115,18 @@ footer p {
 
 footer a {
   color: white;
+  text-align: left;
+  font-style: normal;
+  text-transform: none;
 }
 
 footer nav {
   display: flex;
   align-items: center;
+}
+
+footer span {
+  display: none;
 }
 
 iframe {
@@ -149,7 +189,7 @@ width: 100%;
   display: block;
   text-transform: uppercase;
   font-size: 1.5em;
-  font-family: karla;
+  font-family: Karla, sans-serif;
   text-align: center;
   color: white;
 }
@@ -158,7 +198,7 @@ width: 100%;
   display: block;
   font-size: 4em;
   line-height: 1.5em;
-  font-family: pacifico;
+  font-family: Pacifico;
   text-align: center;
   color: white;
 }
@@ -167,7 +207,7 @@ width: 100%;
   display: block;
   font-size: 2em;
   line-height: 1em;
-  font-family: pacifico;
+  font-family: Pacifico;
   text-align: center;
   color: white;
 }
@@ -322,6 +362,16 @@ color: #999;
   footer nav ul li {
     text-align: left;
   }
+
+  footer span {
+    display: inline;
+  }
+
+  i {
+    margin-right: .5em;
+    text-align: left;
+    width: 35px;
+  }
 }
 
 /*desktop*/
@@ -334,6 +384,10 @@ color: #999;
 
   button:hover {
     background-color: red;
+  }
+
+  .banner p {
+    width: 50%;
   }
 
 }
