@@ -1,0 +1,397 @@
+@font-face {
+  font-family: 'Karla';
+  src: url('fonts/Karla-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Karla';
+  src: url('fonts/Karla-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Karla.ttf';
+  src: url('fonts/Karla-Italic') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Karla.ttf';
+  src: url('fonts/Karla-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Pacifico.ttf';
+  src: url('fonts/Pacifico.ttf') format('truetype');
+}
+
+header {
+  background-color: #000000;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 100px;
+  text-align: center;
+}
+
+body {
+  margin-top: 100px;
+  font-family: Karla, sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  color: #2d2d2d;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+h2 {
+  text-align: center;
+  font-family: Pacifico;
+  font-size: 2em;
+  color: #646464;
+  line-height: 2.5em;
+}
+
+p {
+  display: block;
+  text-align: center;
+  line-height: 1.5em;
+  font-family: Karla, sans-serif;
+  color: #2d2d2d;
+  padding-bottom: 2em;
+}
+
+footer p {
+color: #FFFFFF;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0 auto;
+}
+
+nav li {
+  display: inline-block;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 5px 10px;
+}
+
+a {
+  color: #e2574c;
+}
+
+a:hover {
+    color: #b64036;
+}
+
+main {
+  margin: 0.5em;
+}
+
+footer {
+  background-color: #2d2d2d;
+  text-align: center;
+  padding: 3em 2em;
+  color: white;
+}
+
+footer p {
+  margin: 0 0.5em;
+}
+
+footer a {
+  color: white;
+  text-align: left;
+  font-style: normal;
+  text-transform: none;
+}
+
+footer nav {
+  display: flex;
+  align-items: center;
+}
+
+footer span {
+  display: none;
+}
+
+iframe {
+width: 100%;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+}
+
+.navlink {
+  color: white;
+  text-decoration: none;
+}
+
+.logo {
+  max-width: 60%;
+  max-height: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.banner {
+  max-width: 1140px;
+  background: linear-gradient(
+   to top,
+    rgba(0, 0, 0, 0.35) 0%,
+    rgba(0, 0, 0, 0.25) 100%
+    ),
+    url("./images/kayak-bkgd.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: auto;
+  padding: 0 10px;
+  top: 65px;
+  padding: 2em;
+}
+
+.btn-sign {
+  background-color: #e2574c;
+  border: none;
+  border-radius: 30px;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #FFFFFF;
+  padding: 15px;
+  margin: 50px auto;
+  transition-duration: 0.5s;
+  transition-delay: 0.2s;
+}
+
+.enjoy {
+  display: block;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-family: Karla, sans-serif;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 1px #A9A9A9;
+}
+
+.great {
+  display: block;
+  font-size: 4em;
+  line-height: 1.5em;
+  font-family: Pacifico;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 3px #A9A9A9;
+}
+
+.water {
+  display: block;
+  font-size: 2em;
+  line-height: 1em;
+  font-family: Pacifico;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 3px #A9A9A9;
+}
+
+.banner p {
+  color: white;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: .5em;
+  margin: 1em auto;
+  width: 80%;
+}
+
+.about-images {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about-images img {
+  margin: .5em 0;
+  box-shadow: 3px 3px 5px #A9A9A9;
+}
+
+.rentals p {
+  text-align: left;
+}
+
+.rentals table, .rentals th, .rentals td {
+  border: 1px solid #c8c8c8;
+}
+
+.rentals th, .rentals td {
+  text-align: center;
+  padding: 0.5em;
+}
+
+.rentals table {
+  width: 100%;
+}
+
+.rentals th {
+  background-color: #e6e6e6;
+  font-weight: bold;
+}
+
+.rentals td {
+  width: 33%;
+}
+
+.rentals td:first-child {
+  text-align: left;
+}
+
+.rentals tr:hover {
+  background-color: #fbf6d9;
+}
+
+.mutted {
+color: #999;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*tablet*/
+@media (min-width:600px) {
+
+  body {
+      margin-top: 65px;
+  }
+
+  header {
+    height: 65px;
+  }
+
+  .top-menu {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 0;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    max-width: 25%;
+  }
+
+  nav {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 0;
+    justify-content: flex-end;
+  }
+
+  nav ul {
+    width: auto;
+    margin: 0;
+    padding-right: 10px
+  }
+
+  .about-images img {
+    width: 30%;
+  }
+
+  .rentals-text {
+    width: 48%;
+    float: left;
+  }
+
+  .table {
+    width: 48%;
+    float: right;
+  }
+
+  .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+   }
+
+  .contact {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 40%;
+  }
+
+  .contact p {
+  text-align: left;
+  }
+
+  footer nav {
+    align-items: flex-start;
+  }
+
+  footer nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    width: auto;
+  }
+
+  footer nav ul li {
+    text-align: left;
+  }
+
+  footer span {
+    display: inline;
+  }
+
+  i {
+    margin-right: .5em;
+    text-align: left;
+    width: 40px;
+  }
+}
+
+/*desktop*/
+@media (min-width: 1100px) {
+
+  .container {
+    max-width: 1140px;
+    margin: auto;
+  }
+
+  button:hover {
+    background-color: red;
+  }
+
+  .banner p {
+    width: 50%;
+  }
+
+}
