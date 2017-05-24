@@ -192,6 +192,7 @@ width: 100%;
   font-family: Karla, sans-serif;
   text-align: center;
   color: white;
+  text-shadow: 1px 1px 1px #A9A9A9;
 }
 
 .great {
@@ -201,6 +202,7 @@ width: 100%;
   font-family: Pacifico;
   text-align: center;
   color: white;
+  text-shadow: 1px 1px 3px #A9A9A9;
 }
 
 .water {
@@ -210,6 +212,7 @@ width: 100%;
   font-family: Pacifico;
   text-align: center;
   color: white;
+  text-shadow: 1px 1px 3px #A9A9A9;
 }
 
 .banner p {
@@ -230,6 +233,7 @@ width: 100%;
 
 .about-images img {
   margin: .5em 0;
+  box-shadow: 3px 3px 5px #A9A9A9;
 }
 
 .rentals p {
@@ -370,7 +374,7 @@ color: #999;
   i {
     margin-right: .5em;
     text-align: left;
-    width: 35px;
+    width: 40px;
   }
 }
 
